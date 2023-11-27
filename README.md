@@ -8,7 +8,7 @@
 - **Xming 整合**: 利用 Xming 技術，實現高效能的挖掘過程。
 
 ## 如何開始
-請參閱我們的安裝指南，以便快速開始使用這個專案。
+- 修改docker-compose.yml 把 `WALLET_ADDRESS` 改為您的錢包地址
 
 
 # DOGE Miner
