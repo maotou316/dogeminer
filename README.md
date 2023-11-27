@@ -5,7 +5,8 @@
 ## 特色
 - **簡易設置**: 只需幾個簡單的步驟，您就可以開始挖掘。
 - **Docker 優勢**: 通過 Docker 容器化，保持您的系統整潔且易於管理。
-- **Xming 整合**: 利用 Xming 技術，實現高效能的挖掘過程。
+- **整合 Xming **: 利用 Xming 技術，實現高效能的挖掘過程。
+- **整合 unMineable **
 
 ## 如何開始
 - 修改docker-compose.yml 把 `WALLET_ADDRESS` 改為您的錢包地址
@@ -19,6 +20,8 @@ This project offers a solution for mining Dogecoin and SHIB using Docker contain
 - **Easy Setup**: Begin mining with just a few simple steps.
 - **Docker Advantage**: Keep your system clean and manageable with containerization.
 - **Xming Integration**: Achieve high-efficiency mining with Xming technology.
+- **unMineable Integration**
+
 
 ## Getting Started
 Refer to our installation guide for a quick start with this project.
