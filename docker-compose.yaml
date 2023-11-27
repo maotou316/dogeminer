@@ -10,3 +10,4 @@ services:
       # - COIN=SHIB
       - WALLET_ADDRESS=DUAGzYsfjR5pC1JcjhMKVkMwXgUT7JdeHA
       - WORKER_NAME=dogeminer
+      - CPU_LIMIT_PERCENT=95

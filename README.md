@@ -12,6 +12,7 @@
 - 修改docker-compose.yml 把 `WALLET_ADDRESS` 改為您的錢包地址
 
 
+
 # DOGE Miner
 
 This project offers a solution for mining Dogecoin and SHIB using Docker containers. Leveraging Xming technology, we can efficiently conduct mining operations within a Docker environment without extensive configuration on the local machine. This project is aimed at providing a straightforward and easy-to-setup method for users interested in exploring blockchain technology through cryptocurrency mining.

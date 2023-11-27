@@ -17,7 +17,7 @@ NC="\\033[0;97m"
 # ==============================================================================
 
 CPU_LIMIT_ENABLE="${CPU_LIMIT_ENABLE:-true}"
-CPU_LIMIT_PERCENT="${CPU_LIMIT_PERCENT:-100}"
+CPU_LIMIT_PERCENT="${CPU_LIMIT_PERCENT:-90}"
 CPU_LIMIT=$(($(nproc) * $CPU_LIMIT_PERCENT))
 
 POOL="${MINING_POOL:-rx.unmineable.com:3333}"
