@@ -1,13 +1,13 @@
 version: "3"
 services:
   dogeminer:
-    build: .
+    image: maotou/dogeminer
     container_name: unmineable-miner
     restart: unless-stopped
     environment:
-      - POOL=rx.unmineable.com:3333
-      - COIN=DOGE
-      # - COIN=SHIB
       - WALLET_ADDRESS=DUAGzYsfjR5pC1JcjhMKVkMwXgUT7JdeHA
       - WORKER_NAME=dogeminer
       - CPU_LIMIT_PERCENT=80
+      # - POOL=rx.unmineable.com:3333
+      # - COIN=DOGE
+      # - COIN=SHIB
