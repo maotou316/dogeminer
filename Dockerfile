@@ -68,3 +68,5 @@ RUN chown -R xmrig:xmrig /usr/src/mining \
 USER xmrig
 
 CMD [ "bash", "/usr/src/mining/entrypoint.sh" ]
+# CMD ["tail", "-f", "/dev/null"]
+# 
